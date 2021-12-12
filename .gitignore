@@ -1,2 +1,6 @@
 .idea
 econt/econt.log
+.DS_Store
+*.DS_Store
+*.pyc
+.pyc
