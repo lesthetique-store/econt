@@ -458,10 +458,9 @@ class Econt:
         offices_list = []
         offices_dict = self.to_dict(self.get_offices())
         if offices_dict['data']['response']:
-            print(offices_dict['data']['response'].__dict__)
-            offices_data = offices_dict['data']['response']['offices_street']['e']
+            offices_data = offices_dict['data']['response']['offices']['e']
             for office in offices_data:
-                if office['city_post_code'] == city_post_code:
+                if office['post_code'] == city_post_code:
                     offices_list.append(office)
         offices_dict['data'] = {'streets': offices_list}
         return offices_dict
