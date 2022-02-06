@@ -3,8 +3,8 @@ import unittest
 from api import Econt
 from status_codes import StatusCode
 
-class TestEcont(unittest.TestCase):
 
+class TestEcont(unittest.TestCase):
     def setUp(self):
         self.econt = Econt("iasp-dev", "iasp-dev")
 
@@ -52,5 +52,6 @@ class TestEcont(unittest.TestCase):
         result = self.econt.get_clients()
         self.assertEqual(result["status"], StatusCode.STATUS_OK)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
