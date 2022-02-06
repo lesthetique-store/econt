@@ -6,10 +6,5 @@ setup(
     author="Dmitry Kalinin",
     packages=["econt"],
     url="https://github.com/lesthetique-store/econt",
-    install_requires=[
-        "requests",
-        "dicttoxml",
-        "xmltodict",
-        "nested_lookup"
-    ],
+    install_requires=["requests", "dicttoxml", "xmltodict", "nested_lookup"],
 )

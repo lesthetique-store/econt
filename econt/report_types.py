@@ -1,3 +1,3 @@
 class ReportType:
-    SHORT = 'short'
-    ALL = 'all'
+    SHORT = "short"
+    ALL = "all"
