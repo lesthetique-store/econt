@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="econt",
-    version="1.0.2",
+    version="1.0.3",
     author="Dmitry Kalinin",
     packages=["econt"],
     url="https://github.com/lesthetique-store/econt",
