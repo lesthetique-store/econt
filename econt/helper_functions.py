@@ -40,7 +40,9 @@ def next_working_day(date):
     param = datetime.datetime.strptime(date, "%Y-%m-%d")
     # Monday - 0
     # Tueday - 1
-    # ...
+    # Wednesday - 2
+    # Thursday - 3
+    # Friday - 4
     # Saturday - 5
     if param.weekday() == 5:
         param += datetime.timedelta(days=2)
