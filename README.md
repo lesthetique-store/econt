@@ -3,13 +3,13 @@ A library for use econt.com delivery service
 
 #### Install
 ```bash
-pip install econt
+pip install econt_bg
 ```
 
 #### Example
 
 ```python
-from econt.api import Econt
+from econt_bg.api import Econt
 econt = Econt()
 econt.get_countries()
 econt.get_cities()
